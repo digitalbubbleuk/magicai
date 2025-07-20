@@ -1,0 +1,169 @@
+{
+  "_chatbot-embed-BWb2haJP.css": {
+    "file": "assets/chatbot-embed-BWb2haJP.css",
+    "src": "_chatbot-embed-BWb2haJP.css"
+  },
+  "_clipboard-DyHOBXez.js": {
+    "file": "assets/clipboard-DyHOBXez.js",
+    "name": "clipboard"
+  },
+  "_elevenlabsRealtime-CFjdBZui.js": {
+    "file": "assets/elevenlabsRealtime-CFjdBZui.js",
+    "name": "elevenlabsRealtime",
+    "imports": [
+      "_lib.modern-DHFPEOLP.js",
+      "_livewire.esm-C819BCfU.js"
+    ],
+    "dynamicImports": [
+      "node_modules/laravel-echo/dist/echo.js",
+      "_pusher-DMYFTBOl.js"
+    ]
+  },
+  "_lib.modern-DHFPEOLP.js": {
+    "file": "assets/lib.modern-DHFPEOLP.js",
+    "name": "lib.modern"
+  },
+  "_livewire.esm-C819BCfU.js": {
+    "file": "assets/livewire.esm-C819BCfU.js",
+    "name": "livewire.esm"
+  },
+  "_pusher-DMYFTBOl.js": {
+    "file": "assets/pusher-DMYFTBOl.js",
+    "name": "pusher",
+    "isDynamicEntry": true,
+    "imports": [
+      "_elevenlabsRealtime-CFjdBZui.js"
+    ]
+  },
+  "node_modules/laravel-echo/dist/echo.js": {
+    "file": "assets/echo-DL0QqwGZ.js",
+    "name": "echo",
+    "src": "node_modules/laravel-echo/dist/echo.js",
+    "isDynamicEntry": true
+  },
+  "public/themes/default/assets/img/bg/blob-1.png": {
+    "file": "assets/blob-1-Cl5b-YDw.png",
+    "src": "public/themes/default/assets/img/bg/blob-1.png"
+  },
+  "public/themes/sleek/assets/img/bg/bg.png": {
+    "file": "assets/bg-72mC6hUV.png",
+    "src": "public/themes/sleek/assets/img/bg/bg.png"
+  },
+  "resources/views/default/js/app.js": {
+    "file": "assets/app-CtIiAOJI.js",
+    "name": "app",
+    "src": "resources/views/default/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_elevenlabsRealtime-CFjdBZui.js",
+      "_livewire.esm-C819BCfU.js",
+      "_clipboard-DyHOBXez.js",
+      "_lib.modern-DHFPEOLP.js"
+    ]
+  },
+  "resources/views/default/js/chatbotApp.js": {
+    "file": "assets/chatbotApp-B57s3QBS.js",
+    "name": "chatbotApp",
+    "src": "resources/views/default/js/chatbotApp.js",
+    "isEntry": true,
+    "imports": [
+      "_livewire.esm-C819BCfU.js",
+      "_clipboard-DyHOBXez.js"
+    ],
+    "css": [
+      "assets/chatbot-embed-BWb2haJP.css"
+    ]
+  },
+  "resources/views/default/js/voiceChatbot.js": {
+    "file": "assets/voiceChatbot-BVAZ6ub5.js",
+    "name": "voiceChatbot",
+    "src": "resources/views/default/js/voiceChatbot.js",
+    "isEntry": true,
+    "imports": [
+      "_livewire.esm-C819BCfU.js",
+      "_lib.modern-DHFPEOLP.js"
+    ]
+  },
+  "resources/views/default/scss/dashboard.scss": {
+    "file": "assets/dashboard-CM19tJDp.css",
+    "src": "resources/views/default/scss/dashboard.scss",
+    "isEntry": true
+  },
+  "resources/views/default/scss/landing-page.scss": {
+    "file": "assets/landing-page-BCXVapWk.css",
+    "src": "resources/views/default/scss/landing-page.scss",
+    "isEntry": true
+  },
+  "resources/views/sleek/js/app.js": {
+    "file": "assets/app-Jt3AqhDa.js",
+    "name": "app",
+    "src": "resources/views/sleek/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_elevenlabsRealtime-CFjdBZui.js",
+      "_livewire.esm-C819BCfU.js",
+      "_clipboard-DyHOBXez.js",
+      "_lib.modern-DHFPEOLP.js"
+    ]
+  },
+  "resources/views/sleek/js/chatbotApp.js": {
+    "file": "assets/chatbotApp-CNIYFdaM.js",
+    "name": "chatbotApp",
+    "src": "resources/views/sleek/js/chatbotApp.js",
+    "isEntry": true,
+    "imports": [
+      "_livewire.esm-C819BCfU.js",
+      "_clipboard-DyHOBXez.js"
+    ],
+    "css": [
+      "assets/chatbot-embed-BWb2haJP.css"
+    ]
+  },
+  "resources/views/sleek/scss/dashboard.scss": {
+    "file": "assets/dashboard-qEiSAAnR.css",
+    "src": "resources/views/sleek/scss/dashboard.scss",
+    "isEntry": true
+  },
+  "resources/views/sleek/scss/landing-page.scss": {
+    "file": "assets/landing-page-BCXVapWk.css",
+    "src": "resources/views/default/scss/landing-page.scss",
+    "isEntry": true
+  },
+  "resources/views/social-media-front/js/app.js": {
+    "file": "assets/app-DX7g2Cqu.js",
+    "name": "app",
+    "src": "resources/views/social-media-front/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "resources/views/sleek/js/app.js",
+      "_elevenlabsRealtime-CFjdBZui.js",
+      "_lib.modern-DHFPEOLP.js",
+      "_livewire.esm-C819BCfU.js",
+      "_clipboard-DyHOBXez.js"
+    ]
+  },
+  "resources/views/social-media-front/js/chatbotApp.js": {
+    "file": "assets/chatbotApp-Cpqvk6e4.js",
+    "name": "chatbotApp",
+    "src": "resources/views/social-media-front/js/chatbotApp.js",
+    "isEntry": true,
+    "imports": [
+      "resources/views/sleek/js/chatbotApp.js",
+      "_livewire.esm-C819BCfU.js",
+      "_clipboard-DyHOBXez.js"
+    ],
+    "css": [
+      "assets/chatbot-embed-BWb2haJP.css"
+    ]
+  },
+  "resources/views/social-media-front/scss/dashboard.scss": {
+    "file": "assets/dashboard-DFyGrK9h.css",
+    "src": "resources/views/social-media-front/scss/dashboard.scss",
+    "isEntry": true
+  },
+  "resources/views/social-media-front/scss/landing-page.scss": {
+    "file": "assets/landing-page-CT8xpB41.css",
+    "src": "resources/views/social-media-front/scss/landing-page.scss",
+    "isEntry": true
+  }
+}

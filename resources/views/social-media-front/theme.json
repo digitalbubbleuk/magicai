@@ -1,0 +1,24 @@
+{
+	"name": "social-media-front",
+	"extends": "default",
+	"asset-path": "themes\/social-media-front",
+	"landingPage": {
+		"googleFonts": {
+			"Roboto": [
+				"400",
+				"500",
+				"700"
+			]
+		}
+	},
+	"dashboard": {
+		"bodyClass": "text-base",
+		"googleFonts": {
+			"Roboto": [
+				"400",
+				"500",
+				"700"
+			]
+		}
+	}
+}

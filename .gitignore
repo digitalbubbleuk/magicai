@@ -1,0 +1,26 @@
+# Create .gitignore file
+@"
+/node_modules
+/vendor
+.env
+.vscode/
+*.tgz
+/public/upload
+/public/uploads
+storage/*.key
+storage/logs/*.log
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+!storage/app/.gitkeep
+!storage/framework/.gitkeep
+!storage/framework/cache/.gitkeep
+!storage/framework/sessions/.gitkeep
+!storage/framework/views/.gitkeep
+!storage/logs/.gitkeep
+"@ | Out-File -FilePath .gitignore -Encoding utf8
+
+# Add it to git
+git add .gitignore
+git commit -m "Add .gitignore file"
+git push origin main

@@ -41,7 +41,6 @@
 		"@imacrayon/alpine-ajax": "^0.4.3",
 		"@microsoft/fetch-event-source": "^2.0.1",
 		"rampensau": "^2.0.3",
-		"rt-client": "file:./rt-client-0.4.7.tgz",
 		"sortablejs": "^1.15.6",
 		"typed.js": "^2.1.0",
 		"vite-plugin-mkcert": "^1.17.7"
